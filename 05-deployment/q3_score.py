@@ -4,7 +4,7 @@ import pickle
 with open('pipeline_v1.bin', 'rb') as f:
     pipeline = pickle.load(f)
 
-# Client data from Question 3
+# Client data
 client = {
     "lead_source": "paid_ads",
     "number_of_courses_viewed": 2,
